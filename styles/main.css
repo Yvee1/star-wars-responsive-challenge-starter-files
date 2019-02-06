@@ -12,12 +12,15 @@ main {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .card {
   border: 1px solid lightgrey;
   border-radius: 3px;
+  /*Doesn't resize like the horizontal space between cards.*/
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .description {
